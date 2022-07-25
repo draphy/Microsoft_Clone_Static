@@ -1,0 +1,510 @@
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+.head {
+  width: 100%;
+  height: 54px;
+}
+.sub_head {
+  height: 23px;
+  padding: 16px;
+  padding-left: 56px;
+  float: left;
+}
+.sub_head1 a {
+  text-decoration: none;
+  padding-top: 8px;
+  color: black;
+}
+.sub_head1 a:hover {
+  border-bottom: 2px solid black;
+}
+
+.sub_head1 {
+  width: 1079px;
+  height: 34px;
+  padding: 10px;
+  float: left;
+  font-size: 13px;
+}
+.sub_head_inside {
+  width: 100px;
+  padding: 13px;
+  float: left;
+}
+
+.sub_head2 {
+  width: 200px;
+  height: 24px;
+  margin-top: 14px;
+  float: left;
+  font-size: 12.5px;
+  display: flex;
+}
+.sub_head3 {
+  width: 106px;
+  height: 24px;
+  padding-top: 1px;
+  display: flex;
+  font-size: 12.5px;
+}
+
+#text2 {
+  padding-left: 10px;
+  width: 40px;
+}
+#text3 {
+  padding-left: 10px;
+  width: 50px;
+}
+#text4 {
+  padding-left: 10px;
+  width: 45px;
+}
+#text5 {
+  padding-left: 15px;
+  width: 30px;
+}
+
+#text6 {
+  padding-left: 15px;
+  width: 30px;
+}
+.arrow {
+  width: 10px;
+  height: 10px;
+
+  margin-left: 4px;
+  margin-top: 7px;
+}
+.ulg {
+  text-decoration: none;
+}
+.ulg a {
+  text-decoration: none;
+  color: black;
+}
+.ulg a:hover {
+  border-bottom: 2px solid black;
+}
+.ulg ul {
+  margin-top: 0px;
+  display: flex;
+  padding-top: 10px;
+  padding: 15px 1px;
+  margin-right: 2px;
+  margin-left: -2px;
+}
+.ulg ul li {
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 3px 25px;
+}
+.ulg ul li a {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.sign_in {
+  height: 31px;
+  margin-left: -13px;
+}
+.search {
+  margin-left: -24px;
+  height: 30px;
+}
+.cart {
+  height: 22px;
+  margin-left: -21px;
+}
+.sec_head {
+  width: 100%;
+  height: 269px;
+  background-image: url(./image/Highlight-Hero-M365-Screenplates-Update-Excel_VP5-1920x600.jpeg);
+  padding: 161px 0px;
+}
+.sec_head1 {
+  width: 100%;
+  height: 85px;
+
+  display: flex;
+  justify-content: center;
+}
+.sec_head2 {
+  width: 100%;
+  height: 199px;
+
+  justify-content: center;
+}
+.sec_head_inside {
+  width: 430px;
+  height: 234px;
+
+  padding-left: 144px;
+}
+
+.sec_head_inside_button {
+  width: 174px;
+  height: 38px;
+  background-color: #0067b8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  float: left;
+  font-size: 14px;
+}
+.sec_head-inside-text {
+  font-size: 37px;
+  font-weight: bold;
+  margin-bottom: -21px;
+}
+
+.sec_head-inside-text1 {
+  font-size: 16px;
+}
+.sec_head-inside-tex2 {
+  font-size: 16px;
+  font-weight: 500;
+  float: left;
+  padding: 8px 12px;
+  margin-right: -8px;
+}
+.sec_head-inside-tex2 a {
+  color: #0067b8;
+  text-decoration: none;
+}
+.sec_head-inside-tex2 a:hover {
+  border-bottom: 1px solid #0067b8;
+}
+.sec_head-inside-arrow {
+  font-size: 20px;
+  color: #0067b8;
+  text-decoration: none;
+}
+
+.sec_head-inside-arrow :hover {
+  transform: scaleX(1.055);
+}
+.sec_head1_arrow {
+  float: left;
+}
+
+.sec_head1_dot {
+  width: 12px;
+  height: 15px;
+  bottom: 0;
+  padding-top: 8%;
+  flex: end;
+  float: left;
+}
+.sty {
+  width: 9%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.sec_head2_sty {
+  width: 42%;
+  height: 21%;
+
+  display: flex;
+  margin: auto;
+  padding-top: 72px;
+}
+.sec_head2_sty2 {
+  width: 38%;
+  height: 21%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.sec_head2_sty2 a {
+  color: #0067b8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#windows {
+  padding-left: 105px;
+}
+#surface {
+  padding-left: 190px;
+}
+#xbox {
+  padding-left: 160px;
+}
+#windows11 {
+  padding-left: 120px;
+}
+.sec_head3 {
+  width: 100%;
+  height: 475px;
+}
+.sec_head3_sty {
+  width: 85%;
+  height: 46%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.sec_head3_sty div {
+  width: 24%;
+}
+.sec_head3_sty div img {
+  width: 100%;
+}
+.head3_container {
+  width: 100%;
+  height: 20px;
+}
+#head3_yellow {
+  background-color: #ffb900;
+  width: 39px;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+#head3_yellow p {
+  margin: 0;
+}
+#head3_space {
+  width: 39px;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+#head3_head {
+  width: 382px;
+  font-size: 29px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+#head3_text {
+  width: 353px;
+  font-size: 16px;
+  margin-top: -14px;
+}
+.head3_link {
+  width: 184px !important;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+}
+.head3_link a {
+  color: #0067b8;
+  text-decoration: none;
+}
+.head3_link a:hover {
+  border-bottom: 1px solid #0067b8;
+}
+.head3_link p {
+  margin: 0;
+  color: #0067b8;
+  font-size: 18px;
+}
+.head3_link p:hover {
+  animation-name: move_right;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+@keyframes move_right {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 10px;
+  }
+}
+.sec_head4 {
+  width: 100%;
+  height: 600px;
+}
+.sec_head4_img {
+  background-image: url(./image/gldn-MSFT-hero-Edge_VP5-1596x600.jpeg);
+  height: 600px;
+  width: 1596px;
+  margin: auto;
+  padding-top: 95px;
+}
+.sec_head4_table {
+  background-color: white;
+  width: 481px;
+  height: 239px;
+  margin-left: 46px;
+  padding-left: 48px;
+  padding-top: 18px;
+  margin-top: 88px;
+}
+#head4_head {
+  width: 382px;
+  font-size: 37px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+#head4_text {
+  width: 353px;
+  font-size: 16px;
+  margin-top: -14px;
+}
+.sec_head4_inside_button {
+  width: 144px;
+  height: 38px;
+  background-color: #0067b8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.sec_head5 {
+  width: 100%;
+  height: 96px;
+  background-color: white;
+}
+.sec_head6 {
+  width: 100%;
+  height: 540px;
+
+  margin-top: -37px;
+}
+.sec_head6_head {
+  width: 1600px;
+  height: 44px;
+
+  margin-left: 152px;
+  font-size: 37px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.sec_head7 {
+  width: 100%;
+  height: 32px;
+
+  display: flex;
+}
+.sec_head7 p {
+  width: 127px;
+  height: 20px;
+  margin-top: 4px;
+  margin-left: 144px;
+  font-size: 16px;
+}
+
+.sec_head7 img {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+.sec_head8 {
+  width: 6%;
+  height: 67px;
+  margin-left: 1764px;
+}
+.sec_head8 div {
+  width: 116px;
+  height: 31px;
+  background-color: #d1d1d1;
+  padding: 10px 0px 0px 10px;
+}
+.sec_head8 div:hover {
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 13%),
+    0 0 0.0625rem 0 rgb(0 0 0 / 11%);
+  background-color: #ffffff;
+}
+.sec_head8 a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sec_head8 img {
+  flex: left;
+  width: 16px;
+  height: 16px;
+}
+
+.sec_head9 {
+  width: 100%;
+  height: 330px;
+  background-color: #f2f2f2;
+  display: flex;
+}
+.sec_head9_head {
+  height: 100%;
+  width: 1613px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+}
+.sec_head9_head ul {
+  height: 100%;
+  width: 269px;
+  margin-right: 10px;
+}
+.sec_head9_head p {
+  color: #616161;
+  word-break: break-word;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sec_head9_head a {
+  color: #616161;
+  font-size: 11px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.sec_head9_head a:hover {
+  border-bottom: 1px solid #616161;
+}
+.sec_head9_head li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.sec_head10_head {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 72px;
+  margin-top: -12px;
+}
+.sec_head10_head ul {
+  display: flex;
+  list-style: none;
+  color: #616161;
+  font-size: 12px;
+  padding-top: 29px;
+  padding-left: 680px;
+}
+.sec_head10_head ul a {
+  color: #616161;
+  text-decoration: none;
+  margin-right: 27px;
+}
+.sec_head10_head ul a:hover {
+  border-bottom: 1px solid #616161;
+}
+.sec_head10_head div {
+  width: 288px;
+  height: 66%;
+  float: left;
+  padding-left: 187px;
+  padding-top: 24px;
+}
+.sec_head10_head img {
+  width: 22px;
+  height: 22px;
+  opacity: 60%;
+  margin-right: 8px;
+  float: left;
+}
+.sec_head10_head div a {
+  color: #616161;
+  font-size: 12px;
+
+  text-decoration: none;
+}
+.sec_head10_head div a:hover {
+  border-bottom: 1px solid #616161;
+}
